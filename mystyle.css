@@ -1,0 +1,62 @@
+/* Tampilan icon */
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+}
+
+/* hover icon */
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: white;
+    color: #3B5998;
+}
+
+.fa-twitter {
+    background: white;
+    color: #55ACEE;
+}
+
+.fa-google {
+    background: white;
+    color: #dd4b39;
+}
+
+.fa-linkedin {
+    background: white;
+    color: #007bb5;
+}
+
+/* Tampilan jumbotron */
+.jumbotron{
+    background-color: #f8f8f8;
+}
+
+/* Warna teks heading */
+h1,h4,h6{
+    color: #72ab00;
+}
+
+/* Tampilan judul form */
+.message{
+    padding: 15px;
+    text-align: center;
+}
+/* hover menu active */
+.nav-link a:hover:not(.active){
+    background-color: #ddd;
+}
+
+/* menampilkan halaman aktif */
+.nav-link .active{
+    color: orange;
+    background-color: #72ab00;
+}
